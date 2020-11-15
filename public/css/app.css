@@ -1,0 +1,23 @@
+body {
+  display: grid;
+  height: 100vh;
+  place-items: center;
+  background: url("https://images.pexels.com/photos/2245411/pexels-photo-2245411.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+  background-size: cover;
+  background-position: center center;
+  opacity: 0.86;
+}
+
+.wrapper {
+  position: relative;
+  margin: 0 auto;
+  width: 50%;
+}
+
+form {
+  box-shadow: 5px 5px 15px 0px #000000;
+  background: #FFFFFF;
+  height: 100%;
+  padding: 200px;
+}
+
