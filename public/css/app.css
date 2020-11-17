@@ -1,23 +1,18 @@
-body {
-  display: grid;
-  height: 100vh;
-  place-items: center;
-  background: url("https://images.pexels.com/photos/2245411/pexels-photo-2245411.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
-  background-size: cover;
-  background-position: center center;
-  opacity: 0.86;
+.card-body {
+  width: 500px;
+  background: #f9f5f7;
+  background: radial-gradient(circle, #f9f5f7 0%, #faf8f9 38%, #fbfafb 73%, #fcfcfc 100%);
 }
 
-.wrapper {
-  position: relative;
-  margin: 0 auto;
-  width: 50%;
+@media only screen and (max-width: 500px) {
+  .card-body {
+    width: 50vh;
+  }
 }
 
-form {
-  box-shadow: 5px 5px 15px 0px #000000;
-  background: #FFFFFF;
-  height: 100%;
-  padding: 200px;
+@media only screen and (max-width: 400px) {
+  .card-body {
+    width: 40vh;
+  }
 }
 
